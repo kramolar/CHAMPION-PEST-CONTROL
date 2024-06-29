@@ -12,11 +12,11 @@ export const Appbar = () => {
     <div>
       <div className="bg-black-shade flex items-center justify-between md:p-4  fixed top-0 w-full z-50">
         <div className="flex items-center">
-          <div className="h-14 w-14">
+          <div className=" h-10 w-10 md:h-14 md:w-14">
             <Link to="/ ">{<img src={company_logo}></img>}</Link>
           </div>
           <Link to="/ ">
-            <div className="mx-2 md:mx-4 text-xl md:text-3xl font-normal font-monteserrat font-semibold text-letter-color ">
+            <div className="mx-1 md:mx-4 text-md md:text-3xl font-normal font-monteserrat font-semibold text-letter-color ">
               CHAMPION
             </div>
           </Link>
@@ -32,7 +32,7 @@ export const Appbar = () => {
           <div
             className={`text-letter-color hover:underline ${
               isServices ? "underline" : ""
-            } text-2xl font-normal font-abel ml-10 hidden md:block`}
+            } text-xl md:text-2xl font-normal font-abel ml-10`}
           >
             <Link to="/services">Services</Link>
           </div>
@@ -45,7 +45,7 @@ export const Appbar = () => {
           </div>
         </div>
       </div>
-      <div className="mt-24"></div>
+      <div className="mt-10 md:mt-24"></div>
     </div>
   );
 };
