@@ -10,7 +10,7 @@ export const Appbar = () => {
 
   return (
     <div>
-      <div className="bg-black-shade flex items-center justify-between p-4 fixed top-0 w-full z-50">
+      <div className="bg-black-shade flex items-center justify-between md:p-4  fixed top-0 w-full z-50">
         <div className="flex items-center">
           <div className="h-14 w-14">
             <Link to="/ ">{<img src={company_logo}></img>}</Link>
