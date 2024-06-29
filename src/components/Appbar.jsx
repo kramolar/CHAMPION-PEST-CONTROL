@@ -16,7 +16,7 @@ export const Appbar = () => {
             <Link to="/ ">{<img src={company_logo}></img>}</Link>
           </div>
           <Link to="/ ">
-            <div className="mx-4 text-3xl font-normal font-monteserrat font-semibold text-letter-color ">
+            <div className="mx-2 md:mx-4 text-xl md:text-3xl font-normal font-monteserrat font-semibold text-letter-color ">
               CHAMPION
             </div>
           </Link>
@@ -39,7 +39,7 @@ export const Appbar = () => {
           <div
             className={`text-letter-color hover:underline ${
               isContactUs ? "underline" : ""
-            } text-2xl font-normal font-abel ml-10 mr-4`}
+            } text-xl md:text-2xl font-normal font-abel ml-10 mr-4`}
           >
             <Link to="/contact-us">Contact Us</Link>
           </div>
