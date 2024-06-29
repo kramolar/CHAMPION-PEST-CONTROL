@@ -35,7 +35,7 @@ export const Home = () => {
             <div className="flex justify-center mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-32">
               <Link
                 to={"/contact-us"}
-                className="hover:text-grey-shade bg-letter-color hover:bg-black-shade font-semibold rounded-lg text-sm sm:text-md px-3 sm:px-5 py-2.5 mb-2 dark:bg-letter-color dark:hover:bg-letter-color w-full sm:w-auto sm:flex-grow md:w-1/2"
+                className="hover:text-grey-shade bg-letter-color hover:bg-black-shade font-semibold rounded-lg text-sm sm:text-md px-3 sm:px-5 py-2.5 mb-2 dark:bg-letter-color dark:hover:bg-letter-color w-full sm:w-auto sm:flex-grow md:w-1/2 max-w-[300px]"
               >
                 Request a Quote
               </Link>
