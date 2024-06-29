@@ -18,12 +18,12 @@ export const Home = () => {
         />
         <div className="absolute inset-0 flex items-center justify-center text-center">
           <div>
-            <div className="text-base sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl text-black font-bold px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
+            <div className="text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl text-black font-bold px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
               EXPERT PEST CONTROL: YOUR SOLUTION TO A PEST-FREE ENVIRONMENT
             </div>
             <TextAnimation
               text={
-                <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-black font-bold px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 mt-4">
+                <div className="text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-black font-bold px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 mt-4">
                   Don't let pests disrupt your business. Rely on Canada's
                   premier pest control specialists. No matter the size of the
                   infestation, we're here to provide the solution you need.
