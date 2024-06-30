@@ -10,6 +10,7 @@ export const Appbar = () => {
 
   return (
     <div>
+    
       <div className="bg-black-shade flex items-center justify-between md:p-4  fixed top-0 w-full z-50">
         <div className="flex items-center">
           <div className=" h-10 w-10 md:h-14 md:w-14">
@@ -35,6 +36,13 @@ export const Appbar = () => {
             } text-xl md:text-2xl font-normal font-abel ml-10`}
           >
             <Link to="/services">Services</Link>
+          </div>
+          <div
+            className={`text-letter-color hover:underline ${
+              isServices ? "underline" : ""
+            } text-xl md:text-2xl font-normal font-abel ml-10 hidden md:block`}
+          >
+            <Link to="/pest-library">Pest Library</Link>
           </div>
           <div
             className={`text-letter-color hover:underline ${

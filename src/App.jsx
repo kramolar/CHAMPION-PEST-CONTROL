@@ -5,6 +5,7 @@ import { Appbar } from "./components/Appbar";
 import { Home } from "./pages/Home";
 import { Services } from "./pages/Services";
 import { ContactUs } from "./pages/ContactUs";
+import { PestLibrary } from "./pages/PestLibrary";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/pest-library" element={<PestLibrary />} />
           </Routes>
         </div>
       </BrowserRouter>
