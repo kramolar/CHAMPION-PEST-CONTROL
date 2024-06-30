@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 export const Home = () => {
   return (
     <div>
-      <div className="relative w-full pb-[50%] pt-8">
+      <div className="relative w-full pb-[50%] pt-4">
         <img
           src={pic2}
           alt="Pest Control"

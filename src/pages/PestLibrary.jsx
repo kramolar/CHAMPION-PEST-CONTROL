@@ -14,7 +14,7 @@ import wasps from "../assets/pests/wasps.jpg";
 
 export const PestLibrary = () => {
   return (
-    <div className="pt-8">
+    <div className="pt-4">
       <div className="w-full bg-grey-shade3 text-center">
         <div className="w-full bg-grey-shade3 text-center text-black-shade font-monteserrat font-semibold text-2xl md:text-4xl py-6 md:py-12">
           Pest Library

@@ -4,8 +4,8 @@ import house from "../assets/house.jpg";
 
 export const Services = () => {
   return (
-    <div className="pt-8 mx-10 divide-y-4 divide-brown-shade">
-      <div className="flex flex-col md:flex-row mb-12">
+    <div className="mx-6 divide-y-4 divide-brown-shade">
+      <div className="pt-4 flex flex-col md:flex-row mb-12">
         <div className="flex-1">
           <img src={restaurant} alt="Restaurant" className="w-full h-auto" />
         </div>
