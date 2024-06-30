@@ -33,21 +33,21 @@ export const Appbar = () => {
           <div
             className={`text-letter-color hover:underline ${
               isServices ? "underline" : ""
-            } text-xl md:text-2xl font-normal font-abel ml-10`}
+            } text-lg md:text-2xl font-normal font-abel ml-10`}
           >
             <Link to="/services">Services</Link>
           </div>
           <div
             className={`text-letter-color hover:underline ${
               isServices ? "underline" : ""
-            } text-xl md:text-2xl font-normal font-abel ml-10 hidden md:block`}
+            } text-lg md:text-2xl font-normal font-abel ml-6 md:ml-10`}
           >
             <Link to="/pest-library">Pest Library</Link>
           </div>
           <div
             className={`text-letter-color hover:underline ${
               isContactUs ? "underline" : ""
-            } text-xl md:text-2xl font-normal font-abel ml-6 md:ml-10 mr-4`}
+            } text-lg md:text-2xl font-normal font-abel ml-6 md:ml-10 mr-4`}
           >
             <Link to="/contact-us">Contact Us</Link>
           </div>
