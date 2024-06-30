@@ -3,6 +3,7 @@ import pic2 from "../assets/pic2.jpg";
 import { TextAnimation } from "../actions/TextAnimation";
 import home from "../assets/home.jpg";
 import hotel from "../assets/hotel.jpg";
+import phone from "../assets/phone.png"
 import factory from "../assets/factory.jpg";
 import { CardComponent } from "../components/CardComponent";
 import { Link } from "react-router-dom";
@@ -10,7 +11,7 @@ import { Link } from "react-router-dom";
 export const Home = () => {
   return (
     <div>
-      <div className="relative w-full pb-[50%]">
+      <div className="relative w-full pb-[50%] pt-8">
         <img
           src={pic2}
           alt="Pest Control"
@@ -57,7 +58,7 @@ export const Home = () => {
           receive top-notch, reliable pest control every time.
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-between pt-20 mx-8 md:mx-20 space-y-8 md:space-y-0">
+      <div className="flex flex-col gap-8 md:flex-row justify-between pt-20 mx-8 md:mx-20 space-y-8 md:space-y-0">
         <CardComponent
           img={home}
           title={"Residential"}
@@ -81,9 +82,9 @@ export const Home = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 justify-between px-8 md:px-16 pt-8 mt-12 bg-brown-shade">
-        <div className="items-center mx-8 md:mx-24">
-          <div className="text-2xl text-brown-shade2">About Us</div>
-          <div className="mt-3 font-medium ">
+        <div className="items-center">
+          <div className="text-2xl mx-8 text-brown-shade2">About Us</div>
+          <div className="mt-3 mx-8 font-medium ">
             Welcome to Champion Pest Control! With years of experience and a
             commitment to excellence, we ensure your home or business stays
             pest-free. Our skilled technicians use the latest eco-friendly
@@ -103,7 +104,7 @@ export const Home = () => {
             <Link to={"/contact-us"}>Contact Us</Link>
           </div>
         </div>
-        <div className="items-center mx-8 md:mx-24 mt-8 md:mt-0">
+        <div className="items-center mx-8 mt-8 md:mt-0">
           <div className="text-2xl text-brown-shade2">Contact Info</div>
           <div className="mt-3 font-medium">
             <div>{`Address: `}</div>
@@ -119,6 +120,11 @@ export const Home = () => {
             <div className="">email address</div>
           </div>
         </div>
+      </div>
+      <div className="pt-16 bg-brown-shade"></div>
+      <div className="fixed bottom-2 items-center flex justify-center py-1 animate-bounce w-full bg-brown-shade2 md:hidden">
+        <img src={phone} className="h-6 w-6" />
+        <div className="py-1 text-grey-shade">+1 (647) 806 - 2995</div>
       </div>
     </div>
   );
