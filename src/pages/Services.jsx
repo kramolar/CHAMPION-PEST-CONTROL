@@ -1,6 +1,7 @@
 import restaurant from "../assets/restaurant.jpg";
 import industry from "../assets/industry.jpg";
 import house from "../assets/house.jpg";
+import { BottomBar } from "../components/BottomBar";
 
 export const Services = () => {
   return (
@@ -109,6 +110,7 @@ export const Services = () => {
         </div>
       </div>
       <div className="pt-16"></div>
+      <BottomBar />
     </div>
   );
 };
