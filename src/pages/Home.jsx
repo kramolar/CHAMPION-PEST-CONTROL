@@ -3,10 +3,11 @@ import pic2 from "../assets/pic2.jpg";
 import { TextAnimation } from "../actions/TextAnimation";
 import home from "../assets/home.jpg";
 import hotel from "../assets/hotel.jpg";
-import phone from "../assets/phone.png"
+import phone from "../assets/phone.png";
 import factory from "../assets/factory.jpg";
 import { CardComponent } from "../components/CardComponent";
 import { Link } from "react-router-dom";
+import { BottomBar } from "../components/BottomBar";
 
 export const Home = () => {
   return (
@@ -122,10 +123,7 @@ export const Home = () => {
         </div>
       </div>
       <div className="pt-16 bg-brown-shade"></div>
-      <div className="fixed bottom-2 items-center flex justify-center py-1 animate-bounce w-full bg-brown-shade2 md:hidden">
-        <img src={phone} className="h-6 w-6" />
-        <div className="py-1 text-grey-shade">+1 (647) 806 - 2995</div>
-      </div>
+      <BottomBar />
     </div>
   );
 };

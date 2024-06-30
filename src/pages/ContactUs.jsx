@@ -1,3 +1,4 @@
+import { BottomBar } from "../components/BottomBar";
 import { InquiryForm } from "../components/InquiryForm";
 
 export const ContactUs = () => {
@@ -7,6 +8,8 @@ export const ContactUs = () => {
       <div>
         <InquiryForm />
       </div>
+      <div className="pt-16"></div>
+      <BottomBar />
     </div>
   );
 };

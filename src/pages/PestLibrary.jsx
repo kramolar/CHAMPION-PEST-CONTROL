@@ -11,6 +11,7 @@ import skunk from "../assets/pests/skunk.jpg";
 import spider from "../assets/pests/spider.jpg";
 import termite from "../assets/pests/termite.jpg";
 import wasps from "../assets/pests/wasps.jpg";
+import { BottomBar } from "../components/BottomBar";
 
 export const PestLibrary = () => {
   return (
@@ -113,7 +114,8 @@ export const PestLibrary = () => {
           />
         </div>
       </div>
-      <div className="pt-8"></div>
+      <div className="pt-16"></div>
+      <BottomBar />
     </div>
   );
 };
