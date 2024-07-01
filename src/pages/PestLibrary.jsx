@@ -21,9 +21,8 @@ export const PestLibrary = () => {
           Pest Library
           <div className="text-lg pt-4">
             Dont get scared. We have got you covered.
+          </div>
         </div>
-        </div>
-        
       </div>
 
       <div className="pt-10 px-10">
@@ -96,13 +95,6 @@ export const PestLibrary = () => {
             title={"Spiders"}
             description={
               "While most spiders are harmless to humans, bites from venomous spiders like the brown recluse and black widow can cause severe reactions and require medical attention. Some individuals may experience allergic reactions to spider bites, leading to swelling, itching, and other symptoms."
-            }
-          />
-          <PestLibraryComponent
-            image={termite}
-            title={"Termites"}
-            description={
-              "Termites weaken structures by feeding on wood over time. Repairing their damage is costly, and untreated infestations can lower property values. They often go undetected until they've caused extensive damage, feeding inside wood without visible signs on the surface."
             }
           />
           <PestLibraryComponent

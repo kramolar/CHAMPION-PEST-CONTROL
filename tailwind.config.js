@@ -19,7 +19,9 @@ export default {
       'brown-shade': '#B7B597',
       'brown-shade2': '#4d4d4d',
       'grey-shade3': '#d6ccc2',
-      'pistachio': '#5E5D5C'
+      'pistachio': '#5E5D5C',
+      'red-shade': '#CE2D4F',
+      'blue-shade': '#06BEE1'
     }
   },
   plugins: [

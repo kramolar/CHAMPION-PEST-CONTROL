@@ -118,7 +118,7 @@ export const Home = () => {
 
           <div className="mt-2">
             <div className="font-medium">Email:</div>
-            <div className="">email address</div>
+            <div className="">championpestcontrol73@gmail.com</div>
           </div>
         </div>
       </div>
