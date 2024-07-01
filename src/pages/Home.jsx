@@ -89,7 +89,7 @@ export const Home = () => {
             Welcome to Champion Pest Control! With years of experience and a
             commitment to excellence, we ensure your home or business stays
             pest-free. Our skilled technicians use the latest eco-friendly
-            techniques to eliminate ants, rodents, termites, and more. Trust
+            techniques to eliminate ants, rodents, and more. Trust
             Champion Pest Control for reliable service and peace of mind.
           </div>
         </div>
@@ -109,7 +109,7 @@ export const Home = () => {
           <div className="text-2xl text-brown-shade2">Contact Info</div>
           <div className="mt-3 font-medium">
             <div>{`Address: `}</div>
-            <div className="font-normal">Serving South-West Ontario</div>
+            <div className="font-normal">Serving South-West Ontario (Middlesex County and Oxford County)</div>
           </div>
           <div className="mt-2">
             <div className="font-medium">Phone:</div>
