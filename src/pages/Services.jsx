@@ -90,10 +90,6 @@ export const Services = () => {
                 from your home.
               </li>
               <li>
-                Termite Treatment: Advanced treatments to protect your home from
-                costly termite damage.
-              </li>
-              <li>
                 Bed Bug Extermination: Thorough inspection and treatment to
                 eradicate bed bugs.
               </li>
